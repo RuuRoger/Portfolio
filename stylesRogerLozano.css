@@ -8,7 +8,7 @@
     font-size: 20px;
     flex-grow: 1
 }              
-/* Cabecera */
+/* Header */
 header {
     background-color: #282828;
     padding: 30px;
@@ -58,7 +58,11 @@ header h1 {
 .presentationText {
     flex: 2;
     font-size: 40px;
-    padding-top: 150px;
+    padding-top: 20px;
+}
+
+.presentationText a{
+    font-size: 35px;
 }
 
 .presentationImage img {
@@ -92,7 +96,7 @@ header h1 {
 
 .technologies{
     padding-left: 300px;
-    padding-top: 50px;
+    padding-top: 1px;
 }
 
 .technologies h2{
@@ -107,7 +111,7 @@ header h1 {
     color: white;
 }
 
-/* Sección de contacto */
+/* Contact */
 .contact {
     padding: 50px;
     text-align: center;
@@ -137,7 +141,7 @@ header h1 {
     transform: scale(1.4);
 }
 
-/* Pie de página */
+/* footer */
 footer {
     background-color: #1e1e1e;
     padding: 10px;
@@ -145,43 +149,6 @@ footer {
     color: #777777;
 }
 
-/* Sección de contacto */
-        .contact {
-            padding: 50px;
-            text-align: center;
-            background-color: #282828;
-        }
-
-        .contact h2 {
-            font-size: 40px;
-            color: #f0a500;
-        }
-
-        .logos{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 40px;
-            cursor: pointer;
-        }
-
-        .logos img{
-            max-width: 80px;
-            min-width: 50px;
-            border-radius: 10px;
-        }
-
-        .logos img:hover{
-            transform: scale(1.4);
-        }
-
-        /* Pie de página */
-        footer {
-            background-color: #1e1e1e;
-            padding: 10px;
-            text-align: center;
-            color: #777777;
-        }
 
         /* Estilos para dispositivos móviles */
 @media (max-width: 600px) {
@@ -201,11 +168,11 @@ footer {
     .firstPage {
         text-align: left;
         padding-left: 30px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .firstPage a {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .presentation {

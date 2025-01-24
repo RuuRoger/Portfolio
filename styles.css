@@ -10,37 +10,41 @@ body {
     flex-grow: 1
 }
 
-        /* Cabecera */
+        /* Header */
         header {
             background-color: #282828;
             padding: 30px;
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            font-size: 30px;
+            font-size: 40px;
         }
 
         header h1 {
             margin: 0;
             color: #f0a500;
+    
         }
 
-        /* Sección de presentación */
+        /* Intro */
         .intro {
             padding: 50px;
             text-align: center;
-            font-size: 25px;
+            font-size: 50px;
             background-image: url('background.jpg');
             background-size: cover;
             background-position: center;
             color: white;
 
         }
+        .intro h2{
+            font-size: 80px;
+        }
         .intro a {
             color: orange;
-            font-size: 25px;
+            font-size: 45px;
         }
 
-        /* Galería de proyectos */
+        /* Galery projects */
         .projects {
             display: flex;
             flex-wrap: wrap;
@@ -51,8 +55,8 @@ body {
 
         .project {
             background-color: #333333;
-            margin: 15px;
-            padding: 20px;
+            margin: 10px;
+            padding: 15px;
             border-radius: 10px;
             width: calc(33% - 20px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -65,17 +69,17 @@ body {
         }
 
         .project h3 {
-            font-size: 30px;
+            font-size: 40px;
             color: #f0a500;
         }
 
         .project p {
-            font-size: 20px;
+            font-size: 30px;
             color: white;;
             flex-grow: 1
         }
 
-        /* Sección de contacto */
+        /* Contact */
         .contact {
             padding: 50px;
             text-align: center;
@@ -105,7 +109,7 @@ body {
             transform: scale(1.4);
         }
 
-        /* Pie de págin */
+        /* footer */
         footer {
             background-color: #1e1e1e;
             padding: 10px;
