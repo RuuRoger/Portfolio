@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 20px;
+    color: #bbbbbb;
+    flex-grow: 1
+}
+
+        /* Cabecera */
+        header {
+            background-color: #282828;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #f0a500;
+        }
+
+        /* Sección de presentación */
+        .intro {
+            padding: 50px;
+            text-align: center;
+            font-size: 25px;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+
+        }
+        .intro a {
+            color: orange;
+            font-size: 25px;
+        }
+
+        /* Galería de proyectos */
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px;
+            gap: 15px;
+        }
+
+        .project {
+            background-color: #333333;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            width: calc(33% - 20px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 550;
+        }
+
+        .project video {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .project h3 {
+            font-size: 30px;
+            color: #f0a500;
+        }
+
+        .project p {
+            font-size: 20px;
+            color: white;;
+            flex-grow: 1
+        }
+
+        /* Sección de contacto */
+        .contact {
+            padding: 50px;
+            text-align: center;
+            background-color: #282828;
+        }
+
+        .contact h2 {
+            font-size: 40px;
+            color: #f0a500;
+        }
+
+        .logos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            cursor: pointer;
+        }
+
+        .logos img{
+            max-width: 80px;
+            min-width: 50px;
+            border-radius: 10px;
+        }
+
+        .logos img:hover{
+            transform: scale(1.4);
+        }
+
+        /* Pie de págin */
+        footer {
+            background-color: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+            color: #777777;
+        }
+
+
