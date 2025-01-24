@@ -169,7 +169,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1px; 
+        gap: 25px; 
         cursor: pointer;
     }
 
