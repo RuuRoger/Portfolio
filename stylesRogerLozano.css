@@ -1,4 +1,4 @@
- /* Estilos generales */
+ /* Generic */
  body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -25,12 +25,13 @@ header h1 {
 
 .firstPage{
     text-align: left;
-    padding-left: 60px;
+    padding-left: 3px;
     font-size: 40px;
 }
 
 .firstPage a{
-    color:orange
+    color:orange;
+    
 }
 
 .presentation {
@@ -150,14 +151,14 @@ footer {
 }
 
 
-        /* Estilos para dispositivos móviles */
+        /* In mobile*/
 @media (max-width: 600px) {
     body {
         font-size: 16px;
     }
 
     header {
-        padding: 20px;
+        padding:5px;
         font-size: 24px;
     }
 
@@ -167,7 +168,7 @@ footer {
 
     .firstPage {
         text-align: left;
-        padding-left: 30px;
+        padding-left: 5px;
         font-size: 40px;
     }
 
@@ -224,7 +225,6 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 25px;
-        cursor: pointer;
     }
 
     .logos img {
