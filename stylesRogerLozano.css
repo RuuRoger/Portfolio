@@ -183,15 +183,88 @@ footer {
             color: #777777;
         }
 
+        /* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
 
+    header {
+        padding: 20px;
+        font-size: 24px;
+    }
 
+    header h1 {
+        font-size: 28px;
+    }
 
+    .firstPage {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 30px;
+    }
 
+    .firstPage a {
+        font-size: 10px;
+    }
 
+    .presentation {
+        flex-direction: column;
+        padding: 5px;
+        margin: 20px;
+        align-items: center;
+    }
 
+    .presentationImage {
+        padding-left: 0;
+        margin-right: 0;
+        max-width: 40%;
+        
+    }
 
+    .presentationText {
+        font-size: 10px;
+        padding-top: 20px;
+    }
 
+    #muskLink{
+        font-size: 10px;
+    }
 
+    .lenguages, .technologies {
+        padding: 20px;
+    }
 
+    .lenguages h2, .technologies h2 {
+        font-size: 30px;
+    }
 
+    .languagesList, .technologiesList {
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+    .contact {
+        padding: 15px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+        cursor: pointer;
+    }
+
+    .logos img {
+        max-width: 30px;
+        min-width: 20px;
+        border-radius: 10px;
+    }
+
+}
 

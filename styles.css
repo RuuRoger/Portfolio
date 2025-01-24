@@ -113,4 +113,71 @@ body {
             color: #777777;
         }
 
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .intro {
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .intro a {
+        font-size: 20px;
+    }
+
+    .projects {
+        padding: 30px;
+        gap: 10px;
+    }
+
+    .project {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px;
+        height: auto;
+    }
+
+    .project h3 {
+        font-size: 24px;
+    }
+
+    .project p {
+        font-size: 18px;
+    }
+
+    .contact {
+        padding: 15px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1px; 
+        cursor: pointer;
+    }
+
+    .logos img {
+        max-width: 30px;
+        min-width: 20px;
+        border-radius: 10px;
+    }
+
+}
 
