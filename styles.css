@@ -57,17 +57,17 @@ header h1 {
 
 .project {
     background-color: #333333;
-    margin: 10px;
+    margin: 1px;
     padding: 15px;
     border-radius: 10px;
-    width: calc(33% - 20px);
+    width: calc(30% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     height: 550;
 }
 
 .project video {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1px;
 }
 
 .project h3 {
