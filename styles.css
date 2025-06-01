@@ -132,3 +132,46 @@ footer {
     text-align: center;
     color: #777777;
 }
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .intro {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .projects {
+        padding: 20px;
+    }
+
+    .project {
+        width: 90%;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container video {
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .logos {
+        gap: 20px;
+    }
+
+    .logos img {
+        max-width: 40px;
+        min-width: 40px;
+    }
+}
