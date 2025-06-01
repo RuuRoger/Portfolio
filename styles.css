@@ -1,13 +1,10 @@
-/* Genric */
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #1e1e1e;
-    color: #ffffff;
-    font-size: 20px;
     color: #bbbbbb;
-    flex-grow: 1
 }
 
 /* Header */
@@ -15,71 +12,87 @@ header {
     background-color: #282828;
     padding: 30px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-size: 40px;
 }
 
 header h1 {
     margin: 0;
     color: #f0a500;
-
 }
 
-/* Intro */
+/* Introducción */
 .intro {
     padding: 50px;
     text-align: center;
     font-size: 50px;
     background-image: url('background.jpg');
     background-size: cover;
-    background-position: center;
     color: white;
-
 }
 
-.intro h2 {
-    font-size: 80px;
-}
-
-.intro a {
-    color: orange;
-    font-size: 45px;
-}
-
-/* Galery projects */
+/* Galería de proyectos */
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    /* Apila las tarjetas */
+    align-items: center;
+    /* Centra las tarjetas */
     padding: 50px;
-    gap: 15px;
+    gap: 20px;
 }
 
 .project {
     background-color: #333333;
-    margin: 1px;
     padding: 15px;
     border-radius: 10px;
-    width: calc(30% - 20px);
+    width: calc(40% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    height: 550;
-}
-
-.project video {
-    width: 100%;
-    border-radius: 1px;
 }
 
 .project h3 {
-    font-size: 40px;
+    text-align: center;
+    font-size: 30px;
     color: #f0a500;
 }
 
-.project p {
-    font-size: 30px;
-    color: white;
-    ;
-    flex-grow: 1
+/* Contenedor de imagen y video */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Apila imagen, texto y video */
+    align-items: center;
+    gap: 15px;
+}
+
+.container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.container video {
+    width: 90%;
+    /* Aumenta la presencia del video */
+    max-height: 400px;
+    /* Define una altura máxima */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    color: #f0a500 !important;
+    text-decoration: none;
+}
+
+
+a.link {
+    color: #f0a500;
+    text-decoration: none;
 }
 
 /* Contact */
@@ -103,7 +116,7 @@ header h1 {
 }
 
 .logos img {
-    max-width: 80px;
+    max-width: 50px;
     min-width: 50px;
     border-radius: 10px;
 }
@@ -118,72 +131,4 @@ footer {
     padding: 10px;
     text-align: center;
     color: #777777;
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 600px) {
-    body {
-        font-size: 16px;
-    }
-
-    header {
-        padding: 20px;
-        font-size: 24px;
-    }
-
-    header h1 {
-        font-size: 28px;
-    }
-
-    .intro {
-        padding: 30px;
-        font-size: 20px;
-    }
-
-    .intro a {
-        font-size: 20px;
-    }
-
-    .projects {
-        padding: 30px;
-        gap: 10px;
-    }
-
-    .project {
-        width: 100%;
-        margin: 10px 0;
-        padding: 15px;
-        height: auto;
-    }
-
-    .project h3 {
-        font-size: 24px;
-    }
-
-    .project p {
-        font-size: 18px;
-    }
-
-    .contact {
-        padding: 15px;
-    }
-
-    .contact h2 {
-        font-size: 24px;
-    }
-
-    .logos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
-        cursor: pointer;
-    }
-
-    .logos img {
-        max-width: 30px;
-        min-width: 20px;
-        border-radius: 10px;
-    }
-
 }

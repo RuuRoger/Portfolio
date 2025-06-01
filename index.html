@@ -4,9 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roger Lozano - Game Developer & Desinger</title>
+    <title>Roger Lozano - Game Developer & Designer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/jpg" href="./Images/Juqs.jpg">
+
+    <style>
+        /* Ajustes para los enlaces */
+        .link a {
+            color: orange !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link a:visited,
+        .link a:hover,
+        .link a:active {
+            color: orange !important;
+            text-decoration: none;
+        }
+
+        .intro a {
+            color: orange;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,15 +37,22 @@
         <h1>Roger Lozano</h1>
     </header>
 
-    <!-- Introducction -->
+    <!-- Introducción -->
     <section class="intro">
         <h2>Hello there!</h2>
         <p>Check out my demos and projects.</p>
-        <a href="RogerLozano.html">Learn more about me</a>
-        <p></p>
+        <a href="RogerLozano.html" style="color: #00CED1; text-decoration: none;">Learn more about me</a>
+        <style>
+            .link a {
+                align-content: center;
+                color: #00CED1 !important;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        </style>
     </section>
 
-    <!-- Galeri projects -->
+    <!-- Galería de proyectos -->
     <section class="projects">
         <div class="project">
             <div style="text-align: center;">
@@ -37,88 +66,100 @@
                     href="https://play.google.com/store/apps/details?id=com.juqsgames.com.unity.template.dancewithmonkey">
                     <img alt="Available on Google Play"
                         src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                        width="200" />
+                        width="300" />
                 </a>
             </div>
-            <p>A casual mobile game inspired by "Simon Says." Test your memory and reflexes by following increasingly
-                challenging sequences. Can your memory keep up with the rhythm?</p>
+            <p>A casual mobile game inspired by "Simon Says." Test your memory and reflexes!</p>
         </div>
+
         <div class="project">
-            <video playsinline autoplay loop muted>
-                <source src="./Videos/The_Bave_caro_Demo.mp4" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
             <h3>The Brave Caro</h3>
-            <div class=BraveCaro style="text-align: center;">
-                <a style="color: turquoise;" href="./The Brave Caro/index.html" target="_blank">
-                    Play It Now! (DEMO)
-                </a>
+            <div class="container">
+                <img src="./Images/The brave caro cover.png" alt="Cover The Brave Caro">
+                <p>Help Caro overcome all the levels, but don't let your guard down. Caro has plenty of challenges to
+                    face.
+                </p>
+                <video playsinline autoplay loop muted>
+                    <source src="./Videos/The_Bave_caro_Demo.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
             </div>
-            <p>Help Caro overcome all the levels, but don't let your guard down. Caro has plenty of challenges to face.
-            </p>
+            <div class="link">
+                <a href="https://ruuroger.itch.io/the-brave-caro" target="_blank">Play It Now!</a>
+            </div>
         </div>
 
         <div class="project">
-            <video playsinline autoplay loop muted>
-                <source src="./Videos/Ball Roll Down.mp4" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
+            <h3>Eco Shots</h3>
+            <div class="container">
+                <img src="./Images/Echo Shots Cover.png" alt="Cover Echo Shots">
+                <p>12 bullets are your allies to face your enemy. Get extra ammo, but be careful with the ricochets, or
+                    they
+                    will work against you.
+                </p>
+                <video playsinline autoplay loop muted>
+                    <source src="./Videos/12 Bullets.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+            <div class="link">
+                <a href="https://ruuroger.itch.io/echo-shots" target="_blank">Play It Now!</a>
+            </div>
+        </div>
+
+        <div class="project">
             <h3>Glide & Dodge</h3>
-            <p>Slide at maximum speed and score as many points as possible, if you can reach the end of the course, of
-                course...</p>
-        </div>
-
-        <div class="project">
-            <video playsinline autoplay loop muted>
-                <source src="./Videos/12 Bullets.mp4" type="video/mp4">
-                Your browser does not support the video element..
-            </video>
-            <h3>Echo Shots</h3>
-            <div class=echoShots style="text-align: center;">
-                <a style="color: turquoise;" href="./EchoShots/index.html" target="_blank">
-                    Play It Now! (DEMO)
-                </a>
+            <div class="container">
+                <img src="./Images/Glide & Dodge Cover.png" alt="Cover Glide & Dodge">
+                <p>Slide at maximum speed and score as many points as possible, if you can reach the end of the course,
+                    of course....
+                </p>
+                <video playsinline autoplay loop muted>
+                    <source src="./Videos/Ball Roll Down.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
             </div>
-            <p>A little videogame where 12 bullets are your allies to face your enemy. Get extra ammo, but be careful
-                with the ricochets, or they will work against you.</p>
+            <!-- <div class="link">
+                <a href="https://ruuroger.itch.io/echo-shots" target="_blank">Play It Now!</a>
+            </div> -->
         </div>
 
         <div class="project">
-            <video playsinline autoplay loop muted>
-                <source src="./Videos/Breakout.mp4" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
             <h3>Breakout</h3>
-            <p>Remake of the Atari classic. Simple, easy, and fun. A legacy from one of the fathers of gaming.</p>
+            <div class="container">
+                <img src="./Images/Breakout Cover.png" alt="Cover Glide & Dodge">
+                <p>Remake of the Atari classic. Simple, easy, and fun. A legacy from one of the fathers of gaming.
+                </p>
+                <video playsinline autoplay loop muted>
+                    <source src="./Videos/Breakout.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+            <!-- <div class="link">
+                <a href="https://ruuroger.itch.io/echo-shots" target="_blank">Play It Now!</a>
+            </div> -->
         </div>
     </section>
 
-    <!-- Contact -->
+    <!-- Contacto -->
     <section class="contact">
         <h2>Contact</h2>
         <div class="logos">
             <a href="https://www.linkedin.com/in/roger-lozano-6682a2338/" target="_blank">
                 <img src="./Images/5296501_linkedin_network_linkedin logo_icon.png" alt="Logo Linkedin">
             </a>
-
             <a href="https://github.com/RuuRoger" target="_blank">
                 <img src="./Images/211904_social_github_icon.png" alt="Logo Github">
             </a>
             <img src="./Images/8197841_discord_social network_communication_interaction_message_icon.png"
                 alt="Logo Discord" title="Usuario: ruu3467">
-
             <a href="mailto:lozanofierroruu@gmail.com" target="_blank">
                 <img src="./Images/4202011_email_gmail_mail_logo_social_icon.png" alt="Logo Email">
             </a>
-            <a href="https://api.whatsapp.com/send?phone=34658819374" target="_blank">
-                <img src="./Images/3225179_app_logo_media_popular_social_icon.png" alt="Logo whatsApp">
-            </a>
         </div>
-
-
     </section>
 
-    <!-- footer-->
+    <!-- Footer -->
     <footer>
         <p>Roger Lozano</p>
     </footer>
